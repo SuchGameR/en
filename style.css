@@ -1,0 +1,324 @@
+/* 機種の設定 */
+@media(min-width:768px){
+    .sp{
+        display: none !important;
+    }
+}
+@media(max-width:768px){
+    .pc{
+        display: none !important;
+        /* margin: 0%; */
+    }
+}
+@media(max-width:4096px){
+    .pc2{
+        display: none !important;
+        /* margin: 0%; */
+    }
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* スクロール非表示 */
+.contents_box{
+    width: 400px;
+    height: 150px;
+    background-color: aquamarine;
+    overflow: scroll;
+    /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
+    -ms-overflow-style: none;
+    /*Firefoxへの対応*/
+    scrollbar-width: none;
+  }
+  
+   /*Google Chrome、Safariへの対応*/
+  .contents_box::-webkit-scrollbar{
+    display: none;
+  }
+
+
+
+img.favicon {
+    width: 180px;
+    text-align: center;
+    transition: 3.0s;
+}
+
+img.header-favicon {
+    text-align: left;
+    width: 100px;
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+}
+
+h1.WelcomeMS {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+    text-shadow: 0px 0px 10px white;
+}
+
+li.header-navitem {
+    text-align: right;
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    color: white;
+}
+
+a.header-submenu-a {
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px white;
+    transition: 1.0s;
+}
+
+a.header-submenu-a :hover {
+    color: aqua;
+    text-decoration: double;
+    text-shadow: 0px 0px 8px black;
+    border-bottom: 10px rgb(0, 76, 255);
+    text-shadow: 0px 0px 10px rgb(0, 170, 255);
+    transition: 1.0s;
+}
+
+
+
+
+a.anime {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+  }
+  a.anime::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+  }
+  a.anime:hover::after {
+    transform: scale(1, 1);
+  }
+
+
+
+
+
+
+
+  a.anime2::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    bottom: -1px;
+    visibility: hidden;
+    }
+    
+    a.anime2:hover::after {
+    visibility: visible;
+    }
+
+
+
+
+
+
+
+
+
+ul.header-navlist {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav.header-nav {
+    text-align: right;
+}
+
+
+/* コンテンツ */
+
+div.con1 {
+    text-align: center;
+    width: 100%;
+
+    display: inline-block;
+
+    width: 100%;
+    margin: 0 0 auto;
+    max-width: 100%;
+}
+
+div.contents {
+    display: flex;
+    margin: 0 0 auto;
+    border: 3px solid rgba(0, 0, 0, 0);
+    text-align: center;
+    float: center;
+    width: 100%;
+    position: relative;
+    height: 10em;
+}
+
+div.c-page {
+    text-align: center;
+    float: center;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+
+p.contents-link {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+}
+
+p.contents {
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    flex: content;
+    display: contents;
+    
+}
+
+img.contents {
+    float: center;
+    text-align: center;
+    border-radius: 50%;
+    /* width: 15vw; */
+    /* width: 170px; */
+    width: 100px;
+    padding-right: 0px;
+    text-shadow: 0px 0px 8px black;
+}
+img.contents ::after {
+    border-radius: 10%;
+    box-shadow: 0px 0px 100px black;
+}
+
+img.contents2 {
+    float:center;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+    text-shadow: 0px 0px 8px black;
+}
+img.contents3 {
+    float:center;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    text-shadow: 0px 0px 8px black;
+}
+
+
+
+span {
+    float: center;
+}
+
+p.p2 {
+    text-align: center;
+    padding: 35px;
+}
+
+div.border-line {
+    text-align: center;
+    border: 3px solid black;
+    border-width: 3px;
+    border-color: #333;
+    margin: 0%;
+    width: 50%;
+    float: center;
+
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px black;
+}
+
+div.border-line2 {
+    text-align: center;
+    border: 3px solid black;
+    border-width: 3px;
+    border-color: #333;
+    float: center;
+
+    width: 95%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px black;
+    text-align: center;
+    float: center;
+}
+
+
+div.what {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 7000px;
+    display: flex;
+    padding: 5px;
+    float: center;
+}
+
+p.p3 {
+    text-align: left;
+}
+
+
+div.end {
+    background-color: #333;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+
+a.top-page {
+    color: rgb(0, 191, 255);
+    text-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.499);
+    text-decoration: none;
+    transition: 1.0s;
+    font-size: 30px;
+} 
+a.top-page :hover {
+    color: rgb(196, 62, 62);
+    text-decoration: underline;
+    font-size: 32px;
+    transition: 1.0s;
+}
+
+a.link {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    float: center;
+}
